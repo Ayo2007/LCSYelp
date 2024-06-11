@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5793AE892C13869200BFB097 /* LCSYelpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5793AE882C13869200BFB097 /* LCSYelpApp.swift */; };
-		5793AE8B2C13869200BFB097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5793AE8A2C13869200BFB097 /* ContentView.swift */; };
+		5793AE8B2C13869200BFB097 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5793AE8A2C13869200BFB097 /* SettingsView.swift */; };
 		5793AE8D2C13869400BFB097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5793AE8C2C13869400BFB097 /* Assets.xcassets */; };
 		5793AE902C13869400BFB097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5793AE8F2C13869400BFB097 /* Preview Assets.xcassets */; };
+		57D8DA762C188074007554AA /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8DA752C188074007554AA /* FriendsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5793AE852C13869200BFB097 /* LCSYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCSYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5793AE882C13869200BFB097 /* LCSYelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCSYelpApp.swift; sourceTree = "<group>"; };
-		5793AE8A2C13869200BFB097 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5793AE8A2C13869200BFB097 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5793AE8C2C13869400BFB097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5793AE8F2C13869400BFB097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57D8DA752C188074007554AA /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				5793AE882C13869200BFB097 /* LCSYelpApp.swift */,
-				5793AE8A2C13869200BFB097 /* ContentView.swift */,
+				5793AE8A2C13869200BFB097 /* SettingsView.swift */,
 				5793AE8C2C13869400BFB097 /* Assets.xcassets */,
 				5793AE8E2C13869400BFB097 /* Preview Content */,
+				57D8DA752C188074007554AA /* FriendsView.swift */,
 			);
 			path = LCSYelp;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5793AE8B2C13869200BFB097 /* ContentView.swift in Sources */,
+				57D8DA762C188074007554AA /* FriendsView.swift in Sources */,
+				5793AE8B2C13869200BFB097 /* SettingsView.swift in Sources */,
 				5793AE892C13869200BFB097 /* LCSYelpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
