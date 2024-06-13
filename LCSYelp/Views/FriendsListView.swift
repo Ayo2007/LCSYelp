@@ -32,7 +32,13 @@ struct FriendsListView: View {
             return friends
         } else{
             // Make empty array
-            var _: [Friend] = []
+            var filteredfriends: [Friend] = []
+            
+            for friend in friends {
+                if friend.username.contains(providedText){
+                    filteredfriends.append(friend)
+                }
+            }
         }
             
     }
