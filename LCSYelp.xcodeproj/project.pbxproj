@@ -15,6 +15,7 @@
 		57D8DA762C188074007554AA /* FriendsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8DA752C188074007554AA /* FriendsListView.swift */; };
 		57F556602C18C67000C91E97 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5565F2C18C67000C91E97 /* FriendView.swift */; };
 		57F556622C1A060800C91E97 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F556612C1A060800C91E97 /* InfoView.swift */; };
+		57F556802C1B562E00C91E97 /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5567F2C1B562E00C91E97 /* AddFriendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		57D8DA752C188074007554AA /* FriendsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListView.swift; sourceTree = "<group>"; };
 		57F5565F2C18C67000C91E97 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		57F556612C1A060800C91E97 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		57F5567F2C1B562E00C91E97 /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				5793AE8A2C13869200BFB097 /* SettingsView.swift */,
 				57F5565F2C18C67000C91E97 /* FriendView.swift */,
 				57F556612C1A060800C91E97 /* InfoView.swift */,
+				57F5567F2C1B562E00C91E97 /* AddFriendView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				57F556602C18C67000C91E97 /* FriendView.swift in Sources */,
 				5793AE8B2C13869200BFB097 /* SettingsView.swift in Sources */,
 				5793AE892C13869200BFB097 /* LCSYelpApp.swift in Sources */,
+				57F556802C1B562E00C91E97 /* AddFriendView.swift in Sources */,
 				57F556622C1A060800C91E97 /* InfoView.swift in Sources */,
 				5733638D2C188DD7000A48C0 /* Yelp.swift in Sources */,
 			);
