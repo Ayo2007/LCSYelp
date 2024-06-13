@@ -20,6 +20,7 @@ struct FriendView: View {
                 .padding(.trailing, 20)
             Text(friendToShow.username)
             Text(friendToShow.bio)
+                
             
         }
     }

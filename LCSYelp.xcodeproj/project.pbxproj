@@ -14,6 +14,7 @@
 		5793AE902C13869400BFB097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5793AE8F2C13869400BFB097 /* Preview Assets.xcassets */; };
 		57D8DA762C188074007554AA /* FriendsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8DA752C188074007554AA /* FriendsListView.swift */; };
 		57F556602C18C67000C91E97 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5565F2C18C67000C91E97 /* FriendView.swift */; };
+		57F556622C1A060800C91E97 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F556612C1A060800C91E97 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5793AE8F2C13869400BFB097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57D8DA752C188074007554AA /* FriendsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListView.swift; sourceTree = "<group>"; };
 		57F5565F2C18C67000C91E97 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
+		57F556612C1A060800C91E97 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 				57D8DA752C188074007554AA /* FriendsListView.swift */,
 				5793AE8A2C13869200BFB097 /* SettingsView.swift */,
 				57F5565F2C18C67000C91E97 /* FriendView.swift */,
+				57F556612C1A060800C91E97 /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				57F556602C18C67000C91E97 /* FriendView.swift in Sources */,
 				5793AE8B2C13869200BFB097 /* SettingsView.swift in Sources */,
 				5793AE892C13869200BFB097 /* LCSYelpApp.swift in Sources */,
+				57F556622C1A060800C91E97 /* InfoView.swift in Sources */,
 				5733638D2C188DD7000A48C0 /* Yelp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

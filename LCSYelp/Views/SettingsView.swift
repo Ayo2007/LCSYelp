@@ -9,27 +9,31 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        ZStack{
-            Color.limeGreen
-                .ignoresSafeArea()
-            NavigationStack {
-                List {
-                    
-                    NavigationLink(destination: FriendsListView, label: {
-                        Text("Friends")
-                    })
-                    
-                    
-                    
-                }
-                .navigationTitle("LCSYelp")
-                .padding()
+        
+            
+        NavigationStack {
+            List {
+                NavigationLink(destination: FriendsListView(friends: [myers,gordon,ayo]), label: {
+                    Text("Friends")
+                })
+                NavigationLink(destination: InfoView(InfoToShow: userInfo), label: {
+                    Text("Account Information")
+                })
+                
+                
+                
+                
+                
+                
             }
+            .navigationTitle("LCSYelp")
+            .padding()
         }
-    }
-    
-    
-    #Preview {
-        SettingsView()
+        
     }
 }
+    
+#Preview {
+SettingsView()
+    }
+

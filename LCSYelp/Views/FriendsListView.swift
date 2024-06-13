@@ -13,6 +13,8 @@ import SwiftUI
         // MARK: Stored properties
         let friends: [Friend]
         
+        @State var searchText = ""
+        
         // MARK: Computed properties
         var body: some View {
             VStack {
@@ -21,6 +23,7 @@ import SwiftUI
                 }
                 
             }
+            .searchable(text: $searchText)
         }
     }
 
