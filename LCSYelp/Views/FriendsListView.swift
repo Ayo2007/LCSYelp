@@ -27,7 +27,15 @@ struct FriendsListView: View {
     }
     
    // MARK: Functions
-    func
+    func filter(friends: [Friend], on providedText: String) -> [Friend] {
+        if providedText.isEmpty{
+            return friends
+        } else{
+            // Make empty array
+            var _: [Friend] = []
+        }
+            
+    }
 }
 
 #Preview {
