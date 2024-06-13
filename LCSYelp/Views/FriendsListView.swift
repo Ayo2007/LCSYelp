@@ -7,25 +7,28 @@
 
 import SwiftUI
 
-    struct FriendsListView: View {
-        
-        
-        // MARK: Stored properties
-        let friends: [Friend]
-        
-        @State var searchText = ""
-        
-        // MARK: Computed properties
-        var body: some View {
-            VStack {
-                List(friends) { friend in
-                    FriendView(friendToShow: friend)
-                }
-                
+struct FriendsListView: View {
+    
+    
+    // MARK: Stored properties
+    let friends: [Friend]
+    @State private var searchText: String = ""
+    
+    
+    // MARK: Computed properties
+    var body: some View {
+        VStack {
+            List(friends) { friend in
+                FriendView(friendToShow: friend)
             }
-            .searchable(text: $searchText)
+            
         }
+        .searchable(text: $searchText)
     }
+    
+   // MARK: Functions
+    func
+}
 
 #Preview {
     FriendsListView(friends: exampleFriends)

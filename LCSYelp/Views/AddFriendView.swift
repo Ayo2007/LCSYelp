@@ -11,7 +11,7 @@ struct AddFriendView: View {
    // MARK: Stored Properties
     @State private var Username: String = ""
     @State private var StudentID: String = ""
-    
+    @State private var searchText: String = ""
     @Binding var isShowing: Bool
     
     
@@ -22,6 +22,8 @@ struct AddFriendView: View {
                 Section(header: Text("Add Friends")) {
                     TextField("Username", text: $Username)
                     TextField("StudentID", text: $StudentID)
+                    
+                        .searchable(text: $searchText)
                 }
             }
         }
@@ -29,5 +31,5 @@ struct AddFriendView: View {
 }
 
 #Preview {
-    AddFriendView(isShowing: <#Binding<Bool>#>)
+    AddFriendView(isShowing: Binding.constant(true))
 }
