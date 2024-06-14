@@ -16,6 +16,8 @@
 		57F556602C18C67000C91E97 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5565F2C18C67000C91E97 /* FriendView.swift */; };
 		57F556622C1A060800C91E97 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F556612C1A060800C91E97 /* InfoView.swift */; };
 		57F556802C1B562E00C91E97 /* AddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5567F2C1B562E00C91E97 /* AddFriendView.swift */; };
+		57F556822C1C94E800C91E97 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F556812C1C94E800C91E97 /* Suggestion.swift */; };
+		57F556842C1C999A00C91E97 /* AInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F556832C1C999A00C91E97 /* AInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		57F5565F2C18C67000C91E97 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		57F556612C1A060800C91E97 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		57F5567F2C1B562E00C91E97 /* AddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendView.swift; sourceTree = "<group>"; };
+		57F556812C1C94E800C91E97 /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		57F556832C1C999A00C91E97 /* AInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				5733638C2C188DD7000A48C0 /* Yelp.swift */,
+				57F556812C1C94E800C91E97 /* Suggestion.swift */,
+				57F556832C1C999A00C91E97 /* AInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,7 +176,9 @@
 			files = (
 				57D8DA762C188074007554AA /* FriendsListView.swift in Sources */,
 				57F556602C18C67000C91E97 /* FriendView.swift in Sources */,
+				57F556842C1C999A00C91E97 /* AInfo.swift in Sources */,
 				5793AE8B2C13869200BFB097 /* SettingsView.swift in Sources */,
+				57F556822C1C94E800C91E97 /* Suggestion.swift in Sources */,
 				5793AE892C13869200BFB097 /* LCSYelpApp.swift in Sources */,
 				57F556802C1B562E00C91E97 /* AddFriendView.swift in Sources */,
 				57F556622C1A060800C91E97 /* InfoView.swift in Sources */,

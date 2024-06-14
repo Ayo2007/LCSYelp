@@ -26,6 +26,7 @@ struct AddFriendView: View {
                         .searchable(text: $searchText)
                 }
             }
+            .navigationTitle("Add Friends")
         }
     }
 }

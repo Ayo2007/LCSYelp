@@ -39,6 +39,9 @@ struct FriendsListView: View {
                     filteredfriends.append(friend)
                 }
             }
+        
+            // Return the list of friends that contained the provided text
+            return filteredfriends
         }
             
     }
