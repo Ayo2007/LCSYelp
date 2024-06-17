@@ -18,15 +18,26 @@ struct FriendsListView: View {
     // MARK: Computed properties
     var body: some View {
         VStack {
-            List(friends) { friend in
-                FriendView(friendToShow: friend)
+                List(friends) { friend in
+                    FriendView(friendToShow: friend)
+                }
+                
             }
-            
+            .searchable(text: $searchText)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button {
+                        // This will show the add friendView
+                    } label: {
+                        
+                    }
+
+                }
+            }
         }
-        .searchable(text: $searchText)
     }
     
-   // MARK: Functions
+    // MARK: Functions
     func filter(friends: [Friend], on providedText: String) -> [Friend] {
         if providedText.isEmpty{
             return friends
@@ -39,14 +50,19 @@ struct FriendsListView: View {
                     filteredfriends.append(friend)
                 }
             }
-        
-            // Return the list of friends that contained the provided text
-            return filteredfriends
-        }
+                                
+                // Return the list of friends that contained the provided text
+                return filteredfriends
+            }
             
+                
+            
+            
+            
+        }
+    
+    
+    #Preview {
+        FriendsListView(friends: exampleFriends)
     }
-}
 
-#Preview {
-    FriendsListView(friends: exampleFriends)
-}

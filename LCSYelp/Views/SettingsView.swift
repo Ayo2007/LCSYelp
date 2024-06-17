@@ -10,7 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         
-            
+        
         NavigationStack {
             List {
                 NavigationLink(destination: FriendsListView(friends: [myers,gordon,ayo]), label: {
@@ -32,8 +32,8 @@ struct SettingsView: View {
         
     }
 }
-    
+
 #Preview {
-SettingsView()
-    }
+    SettingsView()
+}
 
