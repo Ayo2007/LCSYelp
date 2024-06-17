@@ -29,7 +29,7 @@ struct FriendsListView: View {
                     Button {
                         // This will show the add friendView
                     } label: {
-                        
+                        Image(systemName: "plus")
                     }
 
                 }
