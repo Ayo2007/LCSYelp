@@ -14,6 +14,8 @@ struct FriendsListView: View {
     let friends: [Friend]
     @State private var searchText: String = ""
     
+    @State private var  selectionPresentationType: Int = 1
+    
     @State private var addFriendSheetIsShowing = false
     
     
@@ -31,15 +33,16 @@ struct FriendsListView: View {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
                         // This will show the add friendView
+                        addFriendSheetIsShowing = true 
                     } label: {
                         Image(systemName: "plus")
                     }
                 }
                 
             }
-            .sheet(isPresented: $addFriendSheetIsShowing, content: {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Sheet Content")/*@END_MENU_TOKEN@*/
-            })
+            .sheet(isPresented: $addFriendSheetIsShowing) {
+                AddFriendView(dismissSheet: $addFriendSheetIsShowing)
+            }
         }
     }
 }

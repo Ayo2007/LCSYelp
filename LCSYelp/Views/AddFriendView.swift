@@ -12,9 +12,10 @@ struct AddFriendView: View {
     @State private var Username: String = ""
     @State private var StudentID: String = ""
     @State private var searchText: String = ""
-    @Binding var isShowing: Bool
     
     
+    // Allow binding to dimisssheet
+    @Binding var dismissSheet: Bool
     
     var body: some View {
         NavigationStack{
@@ -27,10 +28,11 @@ struct AddFriendView: View {
                 }
             }
             .navigationTitle("Add Friends")
+            
         }
     }
 }
 
 #Preview {
-    AddFriendView(isShowing: Binding.constant(true))
+    AddFriendView(dismissSheet: Binding.constant(true))
 }
