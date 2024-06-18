@@ -16,9 +16,6 @@ struct SettingsView: View {
                 NavigationLink(destination: FriendsListView(friends: [myers,gordon,ayo]), label: {
                     Text("Friends")
                 })
-                NavigationLink(destination: InfoView(InfoToShow: userInfo), label: {
-                    Text("Account Information")
-                })
                 
                 
                 

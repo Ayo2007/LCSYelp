@@ -43,3 +43,24 @@ var userInfo = accountInfo(pfp: "Ayo", firstName: "First Name: Ayo", LastName: "
 let exampleInfo = [
   userInfo
 ]
+
+struct Suggestions: Identifiable {
+    let id = UUID()
+    let profilePicture: String
+    let username: String
+    let usernameColor: Color
+    let suggestion : String
+    let postColor:Color
+    
+    
+}
+
+let post = Suggestions(profilePicture: "Ayo", username: "Greatest_student", usernameColor: .black, suggestion: " Post:The school should add more combat sport co-curriculars ", postColor: .black)
+let post2 = Suggestions(profilePicture: "Gordon", username: "TechWizz", usernameColor: .black, suggestion: " Post:More frontend coding systems", postColor: .black)
+let post3 = Suggestions(profilePicture: "Myers", username: "LCS123", usernameColor: .black, suggestion: "Post: Basketball programs please Ms.Kee pleaseeeee", postColor: .black)
+
+let exampleSuggestion = [
+  post,
+  post2,
+  post3
+]

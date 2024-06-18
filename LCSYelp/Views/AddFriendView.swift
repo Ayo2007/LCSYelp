@@ -28,7 +28,17 @@ struct AddFriendView: View {
                 }
             }
             .navigationTitle("Add Friends")
-            
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        // This will show the add friendView
+                        dismissSheet = false
+                    } label: {
+                    Text("Add")
+                    }
+                }
+                
+            }
         }
     }
 }
