@@ -17,7 +17,9 @@ struct SettingsView: View {
                     Text("Friends")
                 })
                 
-                
+                NavigationLink(destination: SuggestionView(posts: [post, post2, post3]), label: {
+                    Text("SuggestionsFeed")
+                })
                 
                 
                 
